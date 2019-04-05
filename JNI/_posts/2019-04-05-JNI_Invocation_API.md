@@ -6,8 +6,9 @@ date:        2019-04-05
 author:      Haiden
 header-img:   
 catalog:     true
+category:    JNI
 tags: 
-    -JNI开发
+    - JNI开发
 ---
 
 Invocation API允许软件提供商在原生程序中内嵌Java虚拟机。因此可以不需要链接任何Java虚拟机代码来提供Java-enabled的应用程序。
