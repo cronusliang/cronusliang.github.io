@@ -1,4 +1,3 @@
-
 ---
 layout:      post
 title:       JNI_Invocation_API
