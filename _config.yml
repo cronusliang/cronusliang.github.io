@@ -1,10 +1,10 @@
 # Site settings
-title: Cronus Blog
-SEOTitle: Cronus Blog
+title: Haiden Blog
+SEOTitle: Haiden Blog
 header-img: img/home-bg.jpg
 email: cronusliang@gmail.com
 description: "想知道更多，无可奉告啊"
-keyword: "lLiang的播客, CronusLiang, Haiden,个人网站,互联网, Android"
+keyword: "Liang的播客, CronusLiang, Haiden,个人网站,互联网, Android"
 url: "https://cronusliang.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
