@@ -7,6 +7,7 @@ date:        2019-04-05
 author:      Haiden
 header-img:   
 catalog:     true
+category:    JNI
 tags: 
     -JNI开发
 ---
