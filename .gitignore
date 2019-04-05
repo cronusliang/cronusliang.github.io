@@ -1,8 +1,8 @@
-.DS_Store
-node_modules/
-dist/
+_site
+node_modules
 npm-debug.log
-selenium-debug.log
-test/unit/coverage
-test/e2e/reports
-source/assets/
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+*.sh
+.vscode
