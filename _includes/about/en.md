@@ -1,5 +1,5 @@
 
 
-> Yet another man.
+> Too young, too simple.
 
-My English is so bad,so nothing more to say.
+My English is too bad, nothing to say。
