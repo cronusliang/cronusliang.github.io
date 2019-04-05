@@ -1,1 +1,1 @@
-# Cronus Blog
+#Blog
