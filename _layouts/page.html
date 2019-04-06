@@ -53,6 +53,10 @@ layout: default
                 <!-- Short About -->
                 {% include short-about.html %}
 
+                  {% if site.email %}
+                            <p>✉️ {{site.email}}</p>
+                        {% endif %}
+
                 <!-- Friends Blog -->
                 {% include friends.html %}
     		</div>
