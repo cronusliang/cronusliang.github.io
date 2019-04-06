@@ -57,7 +57,7 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-disqus_username: Haiden
+disqus_username: cronusliang
 
 # Netease settings
 netease_comment: false
