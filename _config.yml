@@ -5,9 +5,9 @@ header-img: img/home_bg.jpg
 email: cronusliang@gmail.com
 description: "想知道更多，无可奉告啊"
 keyword: "Liang的播客, CronusLiang, Haiden,个人网站,互联网, Android"
-url: "https://cronusliang.github.io/"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
-
+url: "https://cronusliang.me/"              # your host, for absolute URL
+baseurl: ""                            # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/cronusliang/cronusliang.github.io" 
 # Publish posts or collection documents with a future date.
 future: true
 
