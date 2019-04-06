@@ -101,5 +101,8 @@ page-mathjax: false
 
 # Friends
 friends: [
-   
+    {
+        title: "readhub",
+        href: "https://readhub.cn/topics"
+    }
 ]
