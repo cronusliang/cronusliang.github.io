@@ -306,7 +306,7 @@ button.paper-button {
 }
 .highlight,
 pre.highlight {
-  background: #F8F8F8;
+  background: #282c34;
   color: #abb2bf;
 }
 .highlight pre {
@@ -507,14 +507,15 @@ pre.highlight {
 .highlighter-rouge .highlight {
   margin-bottom: 10px;
   border-radius: 6px;
+  background: #F8F8F8;
 }
 .highlighter-rouge .highlight pre {
   font-size: 14px;
   line-height: 1.5;
   color: #555;
-  background: transparent;
+  background: #F8F8F8;
   border: 0;
-  margin: 0;
+  margin: 10px;
   padding: 0;
   word-wrap: normal;
 }
