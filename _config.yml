@@ -57,6 +57,7 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
+      background: "#F8F8F8";
 
 
 
