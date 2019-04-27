@@ -29,6 +29,10 @@
     <meta property="og:image" content="{{ site.url }}{{ site.sidebar-avatar }}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.SEOTitle }}">
+
+    <meta name="description" content="{{ page.summary | escape }}"> 
+<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/> 
+
     
     <title>{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}</title>
 
