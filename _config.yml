@@ -7,7 +7,7 @@ description: "想知道更多，无可奉告啊"
 keyword: "Liang的播客, CronusLiang, Haiden,个人网站,互联网, Android"
 url: "https://cronusliang.me/"              # your host, for absolute URL
 baseurl: ""                            # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/cronusliang/cronusliang.github.io" 
+github_repo: "https://github.com/cronusliang/cronusliang.github.io"
 # Publish posts or collection documents with a future date.
 future: true
 
@@ -18,8 +18,8 @@ sidebar-avatar: /img/avatar_bg.jpg      # use absolute URL, seeing it's used in 
 
 # SNS settings
 RSS: false
-weibo_username:     username
-zhihu_username:     username
+weibo_username:     2667368905
+zhihu_username:     check-45-62
 github_username:    cronusliang
 
 
@@ -32,7 +32,7 @@ paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN  
+#timezone: CN
 
 
 
@@ -70,7 +70,7 @@ netease_comment: false
 
 
 # Analytics settings
-# Baidu Analytics 
+# Baidu Analytics
 # ba_track_id: [your track id]
 
 # Google Analytics
