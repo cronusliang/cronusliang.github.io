@@ -54,7 +54,8 @@ layout: default
                 {% include short-about.html %}
 
                   {% if site.email %}
-                            <p>✉️ {{site.email}}</p>
+                <a href="Mailto:{{site.email}}" >✉ {{site.email}}</a>
+                            <!--<p>✉️ {{site.email}}</p>-->
                         {% endif %}
 
                 <!-- Friends Blog -->
