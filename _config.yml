@@ -69,7 +69,7 @@ netease_comment: false
 
 # 展示广告
 show_ad: true
-ad_url: "http://127.0.0.1:8080/ad/goodsinfo?"
+ad_url: "http://api.cronusliang.me/ad/goodsinfo?"
 
 skuIds: ["69346401616,","100006320174,","100011977884"]
 
