@@ -1,0 +1,44 @@
+<section class="visible-md visible-lg">
+    <hr>
+    <div class="short-about " style="display: none" id="ad">
+        <a href="" id="ak"><img src="" id="img" /> </a>
+    </div>
+</section>
+
+{% if site.show_ad %}
+<script>
+    console.log("ad request");
+    var ad_url = "{{site.ad_url}}"
+    var skuIds = "{{site.skuIds}}"
+
+    var skuid ="";
+    var array = [];
+    array = skuIds.split(",");
+
+    if (array.length !== 0){
+        var index = Math.floor((Math.random()*array.length))
+        skuid = array[index]
+    }
+    console.log("skuid",skuid)
+
+    var settings = {
+        "url": ad_url + "skuIds="+ skuid,
+        "method": "GET",
+        "timeout": 0,
+        dataType: 'json',
+    };
+
+    $.ajax(settings).done(function (response) {
+        console.log("post ad response data",response.data.length);
+        if (response.data.length !== 0){
+            document.getElementById('ad').style.display = "block";
+            document.getElementById('img').src = response.data[0].imgurl;
+            document.getElementById('ak').href = response.data[0].clickurl;
+        }else{
+            console.log("post ad response data empty ");
+            document.getElementById('ad').style.display = "none";
+        }
+    });
+
+</script>
+{% endif %}

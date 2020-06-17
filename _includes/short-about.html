@@ -10,5 +10,10 @@
     {% endif %}
     <!-- SNS Link -->
     {% include sns-links.html %}
+
+    {% if site.email %}
+    <a style="margin-top: 1.5rem;margin-bottom: 1rem" href="Mailto:{{site.email}}" >✉️ {{site.email}}</a>
+    {% endif %}
   </div>
 </section>
+

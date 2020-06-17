@@ -8,8 +8,8 @@
 
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
-                    
-                      <a href="http://beian.miit.gov.cn/">粤ICP备17050983号-1</a> 
+
+                      <a href="http://beian.miit.gov.cn/">粤ICP备17050983号-1</a>
                 </p>
             </div>
         </div>
@@ -17,19 +17,19 @@
 </footer>
 
 <!-- jQuery -->
-<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
+<script src='{{ "/js/jquery.min.js " | prepend: site.baseurl }}'></script>
 
 <!-- Bootstrap Core JavaScript -->
 <!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
-<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
+<script src='{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}'></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="{{ "/js/hux-blog.min.js " | prepend: site.baseurl }}"></script>
+<script src='{{ "/js/hux-blog.min.js " | prepend: site.baseurl }}'></script>
 
 <!-- Service Worker -->
 {% if site.service-worker %}
-<script src="{{ "/js/snackbar.js " | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/sw-registration.js " | prepend: site.baseurl }}"></script>
+<script src='{{ "/js/snackbar.js " | prepend: site.baseurl }}'></script>
+<script src='{{ "/js/sw-registration.js " | prepend: site.baseurl }}'></script>
 {% endif %}
 
 <!-- async load function -->
@@ -130,7 +130,7 @@
 <script type="text/javascript">
     function generateCatalog (selector) {
 
-        // interop with multilangual 
+        // interop with multilangual
         if ('{{ page.multilingual }}' == 'true') {
             _containerSelector = 'div.post-container.active'
         } else {
@@ -220,7 +220,7 @@
             $en.style.display = "none";
             $en.classList.remove("active");
         }
-        // interop with catalog 
+        // interop with catalog
         if ("{{ page.catalog }}") generateCatalog(".catalog-body");
     }
 
