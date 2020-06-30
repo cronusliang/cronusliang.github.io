@@ -68,7 +68,7 @@ disqus_username: cronusliang
 netease_comment: false
 
 # 展示广告
-show_ad: true
+show_ad: false
 ad_url: "http://api.cronusliang.me/ad/goodsinfo?"
 
 skuIds: ["69346401616,","100006320174,","100011977884"]
